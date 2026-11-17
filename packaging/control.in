@@ -1,0 +1,20 @@
+Package: gnome-shell-extension-easyclip
+Version: @VERSION@
+Section: gnome
+Priority: optional
+Architecture: all
+Depends: gnome-shell (>= 46), gnome-shell (<< 47~)
+Installed-Size: @INSTALLED_SIZE@
+Maintainer: Brainiac11 <Brainiac11@users.noreply.github.com>
+Homepage: https://github.com/Brainiac11/EasyClip
+Description: clipboard history and emoji picker for GNOME Shell
+ EasyClip opens a small popup on Super+V with everything recently copied,
+ text and images alike, plus an emoji picker. Entries can be searched,
+ pinned, removed and pasted straight into the focused window.
+ .
+ The popup takes no input grab: touchpad gestures, workspace switching and
+ other shortcuts keep working while it is open.
+ .
+ After installing, log out and back in, then enable the extension with
+ "gnome-extensions enable easyclip@brainiac11.github.io" or from the
+ Extensions app.

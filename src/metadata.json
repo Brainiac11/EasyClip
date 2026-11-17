@@ -1,0 +1,13 @@
+{
+  "uuid": "easyclip@brainiac11.github.io",
+  "name": "EasyClip",
+  "description": "Clipboard history and emoji picker on Super+V. Keeps the text and images you copy, lets you search, pin and paste them, and stays out of the way of gestures and shortcuts while it is open. Clipboard contents are read and stored on this computer only.",
+  "shell-version": [
+    "46"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.easyclip",
+  "gettext-domain": "easyclip",
+  "url": "https://github.com/Brainiac11/EasyClip",
+  "version": 1,
+  "version-name": "1.0.0"
+}

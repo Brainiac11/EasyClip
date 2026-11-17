@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.easyclip" path="/org/gnome/shell/extensions/easyclip/">
+    <key name="toggle-clipboard" type="as">
+      <default><![CDATA[['<Super>v']]]></default>
+      <summary>Shortcut that opens the popup on the clipboard tab</summary>
+    </key>
+    <key name="toggle-emoji" type="as">
+      <default>[]</default>
+      <summary>Shortcut that opens the popup on the emoji tab</summary>
+    </key>
+    <key name="history-size" type="i">
+      <range min="5" max="500"/>
+      <default>50</default>
+      <summary>Number of unpinned entries to keep</summary>
+    </key>
+    <key name="paste-on-select" type="b">
+      <default>true</default>
+      <summary>Paste the chosen entry into the focused window</summary>
+      <description>When off, choosing an entry only puts it on the clipboard.</description>
+    </key>
+    <key name="shortcuts-taken" type="as">
+      <default>[]</default>
+      <summary>Shortcuts taken from GNOME's notification-list binding</summary>
+      <description>Internal. Remembers which shortcuts EasyClip removed from GNOME's own binding while enabled, so that they are given back when it is disabled.</description>
+    </key>
+  </schema>
+</schemalist>
